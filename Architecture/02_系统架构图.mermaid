@@ -1,0 +1,60 @@
+graph TD
+    %% 样式定义
+    classDef user fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef agent fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+    classDef db fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,stroke-dasharray: 5 5;
+    classDef process fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+
+    User[用户 User]:::user
+
+    subgraph "核心调度层 Core Orchestrator"
+        Director[总导演 Director]:::agent
+        Config[模式配置 Auto/Co-pilot]:::process
+        StateMgr[状态机 State Machine]:::process
+    end
+
+    subgraph "黑板/共享数据层 Blackboard Context"
+        WorldDB[(世界观设定库)]:::db
+        CharDB[(角色档案库)]:::db
+        OutlineDB[(大纲结构树)]:::db
+        DraftDB[(正文草稿箱)]:::db
+        HistoryDB[(剧情历史/向量库)]:::db
+    end
+
+    subgraph "专家 Agent 集群 Specialist Agents"
+        WorldAgent[设定架构师]:::agent
+        CharAgent[角色总监]:::agent
+        StructureAgent[剧情结构师]:::agent
+        WriterAgent[执行主笔]:::agent
+        ReviewAgent[审校编辑]:::agent
+    end
+
+    %% 用户交互
+    User -- 1.提出创意/指令 --> Director
+    User -- 2.审核/修改/确认 --> Config
+    StateMgr -- 3.推送状态/请求人工介入 --> User
+
+    %% 调度逻辑
+    Director -- 分发任务 --> Config
+    Config -- 路由:自动执行 --> WorldAgent & CharAgent & StructureAgent & WriterAgent
+    Config -- 路由:人工确认 --> User
+
+    %% Agent 工作流
+    WorldAgent -- 读写 --> WorldDB
+    CharAgent -- 读写 --> CharDB
+    StructureAgent -- 读取 --> WorldDB & CharDB
+    StructureAgent -- 写入 --> OutlineDB
+    
+    WriterAgent -- 读取 --> OutlineDB & WorldDB & CharDB & HistoryDB
+    WriterAgent -- 写入 --> DraftDB
+    
+    ReviewAgent -- 读取 --> DraftDB
+    ReviewAgent -- 反馈意见 --> WriterAgent
+    
+    %% 状态与数据同步
+    DraftDB -.-> HistoryDB
+    StateMgr -.-> OutlineDB & DraftDB
+
+    %% 循环迭代
+    ReviewAgent -- 质量达标 --> StateMgr
+    ReviewAgent -- 需修改 --> WriterAgent

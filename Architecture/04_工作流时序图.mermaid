@@ -1,0 +1,73 @@
+sequenceDiagram
+    autonumber
+    
+    actor User as 用户 (User)
+    participant Director as 总导演 (Director)
+    participant StateMgr as 状态/流程引擎 (State/Workflow)
+    participant Blackboard as 黑板/数据层 (Blackboard DB)
+    
+    box "专家 Agent 组" #f9f9f9
+        participant StructAgent as 剧情结构师
+        participant ContextMgr as 上下文构建者 (World/Char)
+        participant Writer as 执行主笔
+        participant Editor as 审校编辑
+    end
+
+    note over User, Blackboard: 阶段一：任务发起与大纲规划
+
+    User->>Director: 指令："开始写第3章，重点是主角觉醒"
+    Director->>StateMgr: 初始化任务：Generate_Chapter_3
+    
+    rect rgb(240, 248, 255)
+        note right of StateMgr: 子任务：生成细纲 (Beat Sheet)
+        StateMgr->>StructAgent: 请求生成本章细纲
+        StructAgent->>Blackboard: 读取前文摘要 & 卷纲
+        Blackboard-->>StructAgent: 返回上下文数据
+        StructAgent->>StateMgr: 返回细纲草稿 (Draft Beats)
+        
+        StateMgr->>User: [Co-pilot] 请审核细纲
+        User->>StateMgr: 修改并确认 (Approve)
+        StateMgr->>Blackboard: 保存定稿细纲
+    end
+
+    note over User, Blackboard: 阶段二：上下文准备 (Context Injection)
+
+    Director->>ContextMgr: 准备第3章场景上下文
+    ContextMgr->>Blackboard: 检索相关世界观 & 登场角色状态
+    Blackboard-->>ContextMgr: 返回 JSON 数据
+    ContextMgr-->>StateMgr: 生成高密度提示词 (Enriched Context)
+
+    note over User, Blackboard: 阶段三：正文生成与迭代
+
+    loop 直到质量达标
+        Director->>StateMgr: 执行写作任务 (Write Scene)
+        StateMgr->>Writer: 输入：细纲 + 上下文 + 风格要求
+        
+        activate Writer
+        Writer->>Writer: 生成正文草稿...
+        Writer->>Blackboard: 写入草稿 (Draft v1)
+        deactivate Writer
+        
+        StateMgr->>Editor: 触发质量审查
+        Editor->>Blackboard: 读取草稿 v1
+        Editor->>Editor: 检查逻辑/人设/错别字
+        
+        alt 审查通过
+            Editor-->>StateMgr: 状态：PASS
+        else 需要修改
+            Editor-->>StateMgr: 状态：REVISE (附修改意见)
+            StateMgr->>Writer: 携带意见重写
+        end
+    end
+
+    note over User, Blackboard: 阶段四：人工验收与交付
+
+    StateMgr->>User: 推送完成的正文
+    
+    opt 用户人工润色 (Manual Mode)
+        User->>Blackboard: 直接编辑正文内容
+    end
+    
+    User->>Director: 确认归档
+    Director->>Blackboard: 更新剧情历史摘要 (Update History) & 标记章节完成
+    Director-->>User: 任务结束，准备下一章
