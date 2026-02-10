@@ -1,0 +1,24 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# env
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# data (可按需取消注释以跟踪项目数据)
+# data/
