@@ -1,5 +1,5 @@
 /**
- * Melo Novel Architecture - Core Data Schemas
+ * Nōva Architecture - Core Data Schemas
  * 
  * 这些接口定义了 Agent 之间协作的基础数据结构（Blackboard Context）。
  */

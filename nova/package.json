@@ -1,0 +1,17 @@
+{
+  "name": "nova",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Multi-Agent novel writing system (monorepo)",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "dev:server": "pnpm --filter server dev",
+    "dev:web": "pnpm --filter web dev",
+    "build": "pnpm -r build",
+    "build:server": "pnpm --filter server build",
+    "build:web": "pnpm --filter web build"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

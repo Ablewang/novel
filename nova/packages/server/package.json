@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsc && node --watch dist/bootstrap.js",
+    "build": "tsc",
+    "start": "node dist/bootstrap.js"
+  },
+  "dependencies": {
+    "@nova/shared": "workspace:*",
+    "@langchain/core": "^0.3.0",
+    "@langchain/langgraph": "^0.2.0",
+    "@langchain/langgraph-checkpoint": "~0.0.17",
+    "@langchain/langgraph-checkpoint-sqlite": "~0.1.5",
+    "@langchain/openai": "^0.4.0",
+    "@midwayjs/bootstrap": "^3.20.0",
+    "@midwayjs/core": "^3.20.0",
+    "@midwayjs/koa": "^3.20.0",
+    "@midwayjs/logger": "^3.4.0",
+    "dotenv": "^16.4.7",
+    "gray-matter": "^4.0.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
