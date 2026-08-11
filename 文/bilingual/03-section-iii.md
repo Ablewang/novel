@@ -1,5 +1,5 @@
 # III – You aren't where you want to be because you're afraid to be there
-# 三、你之所以没到达想去的地方，是因为你害怕到达那里
+# 三、你之所以没到那个地方，是因为你怕去那里
 
 ---
 
@@ -7,7 +7,7 @@
 >
 > – Maxwell Maltz
 
-> 有一件重要的事你要记住：你从哪里得到这个想法，或者它从何而来，这一点根本不重要。你也许从未遇到过专业的催眠师，也许从未被正式催眠过。但是，如果你接受了一个观念——无论是来自你自己、你的老师、父母、朋友、广告，还是任何其他来源——而且你坚信这个观念是真实的，那它对你的影响力，就和催眠师的话对被催眠者的影响力一样强大。
+> 有一件事你必须记住：这个观念从哪里来、怎么来的，一点都不重要。你也许从未见过职业催眠师，从未被正式催眠过。但如果你接受了一个观念——不管它来自你自己、你的老师、父母、朋友、广告，还是任何其他地方——而且你深信它是真的，那它对你的控制力，和催眠师的话对催眠对象的控制力，没有任何区别。
 >
 > — Maxwell Maltz
 
@@ -15,7 +15,7 @@
 
 Here's how you've become who you are today, and how you will become who you will be tomorrow. This is the anatomy of identity:
 
-下面是你如何成为今天的你，以及你将如何成为明天的你。这是身份认同的解剖学：
+你是怎么变成今天这个你的，以及你将怎么变成明天那个你——这就是身份认同的运作机制：
 
 1. You want to achieve a goal
 2. You perceive reality through the lens of that goal
@@ -26,71 +26,71 @@ Here's how you've become who you are today, and how you will become who you will
 7. You defend your identity to maintain psychological consistency
 8. Your identity shapes new goals, restarting the cycle, and if that identity is disadvantageous toward a good life, this gets bad very quick
 
-1. 你想实现一个目标
-2. 你通过这个目标的棱镜来感知现实
-3. 你只注意到那些"重要的"信息和想法，即能帮助你实现这个目标的内容（学习）
-4. 你朝着目标行动，并收到你正在进步的反馈
-5. 你重复这个行为，直到它变得自动化和无意识（条件化）
-6. 这个行为成为你认为自己是谁的一部分（"我是那种会……的人"）
-7. 你捍卫自己的身份认同以维持心理一致性
-8. 你的身份认同塑造新的目标，重启这个循环——如果这个身份对美好生活不利，情况会迅速恶化
+1. 你想实现某个目标
+2. 你开始透过这个目标的棱镜来感知现实
+3. 你只会注意到那些"有用的"信息和想法——那些能帮你实现目标的内容（这就是学习）
+4. 你朝着目标行动，并收到反馈，确认自己在推进中
+5. 你不断重复这个行为，直到它变得自动化、无需思考（这就是条件化）
+6. 这个行为变成了你对自己身份的定义（"我就是那种会……的人"）
+7. 你开始捍卫这个身份，以维持内心的一致感
+8. 这个身份又塑造出新的目标，循环重启——如果这个身份对你的人生有害，事情就会迅速变糟
 
 ---
 
 The unfortunate reality is that you must break the cycle between steps 6 and 7, but this process starts when you are a child.
 
-不幸的是，你必须打破第6步和第7步之间的循环，但这个过程从你还是孩子的时候就开始了。
+残酷的现实是，你必须打破第6步和第7步之间的循环——但这个循环，从你还是个孩子的时候就已经开始了。
 
 ---
 
 You have the goal of survival.
 
-你有生存的目标。
+那时候你的目标就是活下去。
 
 ---
 
 You are dependent on your parents to teach you how to survive. You had to conform. And since the way most people teach is through reward and punishment, unless you adopt their beliefs and values, you will be punished. You don't actually think for yourself until you see through this.
 
-你依赖父母来学习如何生存。你必须顺从。由于大多数人的教育方式是通过奖惩来实现的，除非你接受他们的信仰和价值观，否则你将受到惩罚。直到你看穿这一点，你才能真正为自己思考。
+你依赖父母来学会如何生存，你不得不顺从。大多数人的教育方式是奖惩，如果你不接受他们的信念和价值观，你就会被惩罚。只有当你看穿这一点，你才真正开始为自己思考。
 
 ---
 
 But your parents have also gone through this process throughout their entire lives. That's where it can get dangerous. Your parents, unless they broke the pattern themselves, were conditioned by the culturally accepted ideas of success from the Industrial age. They also carry the best and worst conditioning from their parents and their parents' parents.
 
-但你的父母也经历了这个过程。这就是危险所在。你的父母，除非他们自己打破了这个模式，否则会被工业时代文化所接受的成功观念所条件化。他们还承载着来自他们的父母和祖父母的最好和最坏的条件化。
+但你的父母，也经历了同样的过程——这才是危险所在。除非他们自己打破过这个模式，否则他们是被工业时代那套"什么叫成功"的文化信念塑造出来的。而且他们还带着来自他们父母、祖父母的那些最好与最坏的条件化印记。
 
 ---
 
 To take it a layer deeper, once you fulfill your physical survival needs (which is quite easy to do in today's world, you're practically born into safety), you start to survive on the conceptual or ideological level. You may not try to protect and reproduce your body, but you absolutely protect and reproduce your mind. It's not difficult to see the war of ideas on the internet, and the participants are individual and group identities.
 
-再深一层：一旦你满足了基本的生存需求（这在当今世界相当容易，你几乎生来就处于安全之中），你就开始在概念或意识形态层面上求生存。你也许不再试图保护和繁殖你的身体，但你绝对在保护和繁殖你的思想。互联网上的观念战争并不难察觉，参与者正是各种个人和群体身份。
+再往深一层：一旦你满足了基本的生存需求（这在今天的世界非常容易，你几乎生来就活在安全里），你就开始在观念和意识形态的层面求生存。你或许不再需要保护和繁殖你的身体，但你绝对在保护和繁殖你的思想。互联网上的观念战争随处可见，参与者就是一个个个人和群体的身份认同。
 
 ---
 
 When your body feels threatened, you go into fight or flight.
 
-当你的身体受到威胁时，你会进入战斗或逃跑状态。
+当你的身体感到威胁，你会进入战斗或逃跑状态。
 
 ---
 
 When your identity feels threatened, the same thing happens.
 
-当你的身份认同受到威胁时，同样的事情也会发生。
+当你的身份认同感到威胁，同样的事情发生了。
 
 ---
 
 If you are heavily identified with a political ideology (by the process we talked about just before), you will feel threatened when someone challenges your beliefs. You literally feel the stress. You feel, emotionally, like you were just slapped in the face. Since most people don't analyze their emotions for truth, you tend to get stuck in echo chambers and double down on claims that harm yourself and others.
 
-如果你强烈认同某种政治意识形态（通过我们刚才讲的过程），当有人挑战你的信仰时，你会感到威胁。你会真实地感受到那种压力。你会在情感上感觉就像被人打了一巴掌。由于大多数人不会分析自己的情绪来寻找真相，你往往会陷入信息茧房，对那些伤害自己和他人的观点加倍坚持。
+如果你深深认同某种政治立场（通过我们刚才说的那套机制），当有人挑战你的信仰，你会感到被威胁。那种压力是真实存在的，情绪上就像被人当众打了一巴掌。由于大多数人不会去解析自己的情绪、追问它是否揭示了什么真相，你往往会陷入信息茧房，然后在那些伤害自己和他人的立场上越陷越深。
 
 ---
 
 If you were raised in a religious household, and did not think for yourself, you will fight and attack others who threaten your psychological safety within that little bubble.
 
-如果你在宗教家庭长大，而没有自己独立思考，你会攻击那些威胁到你那个小泡泡里心理安全感的人。
+如果你在宗教家庭长大，从未独立思考过，你就会攻击那些威胁到你那个小泡泡里心理安全感的人。
 
 ---
 
 The same thing happens when you unconsciously see yourself as a lawyer, a gamer, or somebody else who would not take the actions to achieve a better life.
 
-同样的事情也发生在当你无意识地把自己定义为律师、游戏玩家，或其他任何不会为了更好的生活而采取行动的人时。
+同样的事情，也发生在当你无意识地把自己定义为"律师"、"游戏玩家"，或任何一种不会为了更好的生活而采取行动的人时。
